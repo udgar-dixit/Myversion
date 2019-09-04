@@ -24,7 +24,8 @@ public class BrowseActivity extends AppCompatActivity implements SwipeRefreshLay
 	@Override
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_browse);
+		setContentView(R.layout.fragment_home);
+		//setContentView(R.layout.content_navigator);
 
 		RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
 		recyclerView = findViewById(R.id.list);
